@@ -30,3 +30,5 @@ cad/
 CHANGELOG.md
 ## v0.1.0
 - Initial repository structure
+## v0.1.1
+- Added official datasheet and reference document
