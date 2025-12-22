@@ -1,34 +1,53 @@
 # lilygo-t-display-s3-amoled-library
-README.md
 
-# LILYGO T-Display S3 AMOLED Plus – CAD Library
+# LILYGO T-Display S3 AMOLED Plus – KiCad Library
 
-This repository contains the schematic symbol and PCB footprint for the
-LILYGO T-Display S3 AMOLED Plus module.
+This repository contains a **KiCad** schematic symbol and PCB footprint
+for the **LILYGO T-Display S3 AMOLED Plus** module.
 
 ## Scope
-- Schematic symbol
-- PCB footprint
-- Based strictly on official LILYGO documentation
+- ✅ KiCad schematic symbol (library)
+- ✅ KiCad PCB footprint (library)
+- ✅ Deliverable outputs (PDF / images) for review
+- ✅ All work based strictly on **official LILYGO documentation**
+
+## Non-Scope (to avoid misunderstandings)
+- ❌ No firmware, no code examples
+- ❌ No physical prototyping, no measurements from a real board
+- ❌ No “best guess” pinouts — only what is documented officially
 
 ## CAD Tool
-- To be defined (Altium Designer / KiCad)
+- **KiCad** (version to be set in this repo — recommended: KiCad 8.x)
+
+## Repository Structure
+LICENSE
+README.md
+CHANGELOG.md
+
+docs/
+datasheet/
+T-Display-S3-AMOLED-Plus.pdf
+references/
+(official reference schematics, pin maps, etc.)
+
+cad/
+kicad/
+symbols/
+footprints/
+outputs/
+pdf/
+images/
 
 ## References
-All symbols and footprints are created based on official datasheets
-and reference schematics provided by LILYGO.
+All symbols and footprints are created using:
+- Official datasheets and reference schematics provided by LILYGO
+- The module’s documented pin map and reference designs
 
-LICENSE
-docs/
-  datasheet/
-  [T-Display-S3-AMOLED-Plus.pdf](https://github.com/user-attachments/files/24298103/T-Display-S3-AMOLED-Plus.pdf)
-  references/
-cad/
-  symbols/
-  footprints/
-  outputs/
-CHANGELOG.md
-## v0.1.0
-- Initial repository structure
-## v0.1.1
-- Added official datasheet and reference document
+## How to Use (KiCad)
+1. Add the symbol library from: `cad/kicad/symbols/`
+2. Add the footprint library from: `cad/kicad/footprints/`
+3. Open the outputs for review in: `cad/kicad/outputs/`
+
+## Status
+- v0.1.1 — repository structure and official docs added
+- Next milestone: extract pinout from official docs and draft the schematic symbol
