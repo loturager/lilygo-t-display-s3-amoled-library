@@ -25,6 +25,45 @@ README.md
 CHANGELOG.md
 
 docs/
+docs/sources.md
+# Sources and References
+
+This document lists all official sources used to create the schematic symbol
+and PCB footprint for the LILYGO T-Display S3 AMOLED Plus module.
+
+## Primary Source (Authoritative)
+- **LILYGO T-Display S3 AMOLED Plus Datasheet**
+  - File: `docs/datasheet/T-Display-S3-AMOLED-Plus.pdf`
+  - Used for:
+    - Pin map and signal names
+    - Connector definitions
+    - Electrical references
+    - Mechanical dimensions (footprint)
+
+## Secondary Sources
+- Official LILYGO reference schematics and pin maps
+  - Used to cross-check signal naming and connector orientation
+
+## Design Rule
+- No assumptions are made beyond what is explicitly documented
+- In case of ambiguity, the issue is documented in `docs/decisions.md`
+
+docs/decisions.md
+# Design Decisions and Open Questions
+
+This document tracks design decisions and open questions identified during
+the creation of the KiCad symbol and footprint.
+
+## Global Conventions
+- Units: millimeters (mm)
+- Signal naming follows official LILYGO documentation
+- Power nets: 3V3, VBUS, VBAT, GND
+
+## Open Questions
+- None at this stage
+
+
+
 datasheet/
 T-Display-S3-AMOLED-Plus.pdf
 references/
