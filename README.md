@@ -10,3 +10,5 @@ cad/
   footprints/
   outputs/
 CHANGELOG.md
+## v0.1.0
+- Initial repository structure
